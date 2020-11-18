@@ -1,4 +1,4 @@
-* Getting Food from a Vending Machine
+# Getting Food from a Vending Machine
 
 - Selecting Item
   - Choose item
