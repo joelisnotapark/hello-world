@@ -38,8 +38,7 @@ elif position == "3":
 
 print()
 print("Your current stats: ")
-print(
-    f"Strength: {strength}\nAthleticism: {athleticism}\nShooting: {shooting}")
+print(f"Strength: {strength}\nAthleticism: {athleticism}\nShooting: {shooting}")
 
 time.sleep(2)
 
@@ -62,6 +61,8 @@ time.sleep(6)
 print("You choose:")
 print("[1] Kentucky \n[2] Duke \n[3] UCLA")
 school = (input("Enter Choice: "))
+
+# use if statements to define varible as words
 
 if school == "1":
     school = "Kentucky"
@@ -214,7 +215,7 @@ if strength >= 40  or athleticism >= 35 or shooting >= 45:
       print("You are unable to make the Layup and you end up costing your team the game.\n\nYou end up on Shaqtin' a Fool.\n\nShaqtin' a Fool is where all careers end. Your career is over")
   elif choice == "2":
     if strength >= 30:
-      print("You drive in and go for a dunk")
+      print("You post up and go for a dunk")
       time.sleep(1)
       print()
       print("You end up posterizing the defender, making a fool out of him! Your play has just made it on ESPN SportCentre's Plays of the Week. After that highlight, you put a name for yourself in the NBA and gained fame.")
