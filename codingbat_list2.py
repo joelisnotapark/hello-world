@@ -65,3 +65,66 @@ def has22(nums):
                 
     return False
 
+
+# more_14
+def more_14(nums:int) -> bool:
+    pass
+    i = 0
+    x = 0
+    y = 0
+    while i < len(nums):
+        if nums[i] == 1:
+            x += 1
+        elif nums[i] == 4:
+            y += 1
+        i += 1
+        
+    if x > y:
+        return True
+    else:
+        return False
+
+    
+# lucky_13
+def lucky_13(nums:int) -> bool:
+    pass
+    i = 0
+    while i < len(nums):
+        if nums[i] == 1:
+            return False
+        elif nums[i] == 3:
+            return False
+        i += 1
+        
+    return True
+
+
+# sum_28
+def sum_28(nums:int) -> bool:
+    pass
+    i = 0
+    countoftwo = 0
+    while i < len(nums):
+        if nums[i] == 2:
+            countoftwo += 1
+        i += 1
+    
+    countoftwo = countoftwo * 2
+    if countoftwo == 8:
+        return True
+    else:
+        return False
+    
+    
+# no_14
+def no_14(nums:int) -> bool:
+    pass
+    i = 0
+    valid = False
+    while i < len(nums):
+        if nums[i] != 1 and nums[i] != 4:
+            valid = True
+        else:
+            valid = False
+        i += 1
+    return valid
